@@ -55,7 +55,7 @@ if ($method === "POST") {
     $ville = validerPOST("ville");
     $code_postal = validerPOST("code_postal");
 
-    insertForm($id_user, $poids, $taille, $fumeur, $diabetique, $hypertension, $tension_arterielle_systolique, $cholesterol, $cholesterol_hdl, $embolie_pulmonaire_annee, $angine_de_poitrine_annee, $insuffisance_cardiaque_annee, $accident_vasculaire_cerebral_annee, $infarctus_annee, $arterite_des_membres_inferieurs_annee, $description, $ville, $code_postal);
+    insertForm($id_user, $poids, $taille, $fumeGur, $diabetique, $hypertension, $tension_arterielle_systolique, $cholesterol, $cholesterol_hdl, $embolie_pulmonaire_annee, $angine_de_poitrine_annee, $insuffisance_cardiaque_annee, $accident_vasculaire_cerebral_annee, $infarctus_annee, $arterite_des_membres_inferieurs_annee, $description, $ville, $code_postal);
 
     $urlBase = dirname($_SERVER["PHP_SELF"]) . "/form.html";
     header("Location:" . $urlBase . $qs);
