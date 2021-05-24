@@ -48,7 +48,7 @@ input[type=submit] {
 
 .col-25 {
     float: left;
-    width: 25%;
+    width: 20%;
     margin-top: 6px;
 }
 
@@ -57,7 +57,7 @@ input[type=submit] {
 
 .col-75 {
     float: left;
-    width: 75%;
+    width: 50%;
     margin-top: 6px;
 }
 
@@ -81,3 +81,83 @@ input[type=submit] {
         margin-top: 0;
     }
 }
+
+#prenoms {
+    position: absolute;
+    width: 30%;
+}
+
+#noms{
+    position: relative;
+    left: 30%;
+    width: 30%;
+}
+
+#noms #col-75{
+    border: solid black 5px;
+    width: 50%;
+}
+
+#sexe{
+    width: 30%;
+    bottom: 4px;
+}
+
+#sexe .col-75 .F{
+    position: relative;
+    bottom: 3px;
+}
+
+#sexe .col-75 .M{
+    position: relative;
+    bottom: 3px;
+    /*right: 10%;*/
+}
+
+
+#date_de_naissance{
+    width: 25%;
+}
+
+#poids,#taille{
+    width: 15%;
+}
+
+
+#infarctus_annee,#arterite_des_membres_inferieurs_annee{
+    width: 15%;
+}
+
+
+#tension_arterielle_systolique{
+    width: 15%;
+}
+
+#cholesterol{
+    width: 15%;
+}
+
+#cholesterol_hdl{
+    width: 15%;
+}
+
+#embolie_pulmonaire_annee{
+    width: 15%;
+}
+
+#embolie_pulmonaire_annee{
+    width: 15%;
+}
+
+#angine_de_poitrine_annee{
+    width: 15%;
+}
+
+#insuffisance_cardiaque_annee{
+    width: 15%;
+}
+
+#accident_vasculaire_cerebral_annee{
+    width: 15%;
+}
+
