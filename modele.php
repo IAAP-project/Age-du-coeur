@@ -11,6 +11,12 @@ function getUser($id_user)
 	else return array();
 }
 
+function getUserByEmailPassword($email, $password)
+{
+	$SQL = "SELECT id_user,name,firstName,sexe,dateBirthday,email FROM user WHERE email='$email' AND password='$password'";
+	return parcoursRs(SQLSelect($SQL));
+}
+
 function getUsers()
 {
 	$SQL = "SELECT id_user,name,firstName,sexe,dateBirthday,email FROM user";

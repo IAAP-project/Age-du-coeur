@@ -1,0 +1,51 @@
+.box-sign {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 50%;
+    background-color: rgb(214, 214, 214);
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.box-sign .titleForm {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.box-sign input[type=button] {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.box-sign input[type=button]:hover {
+    background-color: transparent;
+    color: rgba(58, 58, 58, 0.377);
+    transition: 400ms;
+}
+
+.box-sign input[type=submit] {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #ffffffc2;
+}

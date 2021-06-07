@@ -1,6 +1,16 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
 /* Style inputs, select elements and textareas */
 
 input[type=text],
+input[type=password],
 input[type=number],
 input[type=date],
 select,
@@ -24,7 +34,7 @@ label {
 
 /* Style the submit button */
 
-input[type=submit] {
+.container input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 12px 20px;
@@ -87,77 +97,75 @@ input[type=submit] {
     width: 30%;
 }
 
-#noms{
+#noms {
     position: relative;
     left: 30%;
     width: 30%;
 }
 
-#noms #col-75{
+#noms #col-75 {
     border: solid black 5px;
     width: 50%;
 }
 
-#sexe{
+#sexe {
     width: 30%;
     bottom: 4px;
 }
 
-#sexe .col-75 .F{
+#sexe .col-75 .F {
     position: relative;
     bottom: 3px;
 }
 
-#sexe .col-75 .M{
+#sexe .col-75 .M {
     position: relative;
     bottom: 3px;
     /*right: 10%;*/
 }
 
-
-#date_de_naissance{
+#date_de_naissance {
     width: 25%;
 }
 
-#poids,#taille{
+#poids,
+#taille {
     width: 15%;
 }
 
-
-#infarctus_annee,#arterite_des_membres_inferieurs_annee{
+#infarctus_annee,
+#arterite_des_membres_inferieurs_annee {
     width: 15%;
 }
 
-
-#tension_arterielle_systolique{
+#tension_arterielle_systolique {
     width: 15%;
 }
 
-#cholesterol{
+#cholesterol {
     width: 15%;
 }
 
-#cholesterol_hdl{
+#cholesterol_hdl {
     width: 15%;
 }
 
-#embolie_pulmonaire_annee{
+#embolie_pulmonaire_annee {
     width: 15%;
 }
 
-#embolie_pulmonaire_annee{
+#embolie_pulmonaire_annee {
     width: 15%;
 }
 
-#angine_de_poitrine_annee{
+#angine_de_poitrine_annee {
     width: 15%;
 }
 
-#insuffisance_cardiaque_annee{
+#insuffisance_cardiaque_annee {
     width: 15%;
 }
 
-#accident_vasculaire_cerebral_annee{
+#accident_vasculaire_cerebral_annee {
     width: 15%;
 }
-
